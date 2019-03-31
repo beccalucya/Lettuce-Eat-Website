@@ -16,3 +16,11 @@ p {
   text-align: left;
   font-size: 14px;
 }
+
+li {
+  padding: 20px 100px;
+}
+
+ul {
+  padding: 20px 100px;
+}
