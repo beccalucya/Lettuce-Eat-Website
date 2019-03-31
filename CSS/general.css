@@ -48,7 +48,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #b5f9ae;
   text-align: right;
 }
 
@@ -66,6 +66,10 @@ li a {
 
 li {
   padding: 10px 30px;
+}
+
+div {
+  background-color: #b5f9ae;
 }
 
 
