@@ -49,7 +49,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b5f9ae;
+  background-color: #ffffff;
   text-align: right;
 }
 
@@ -79,7 +79,7 @@ li a:hover {
 }
 
 div {
-  background-color: #b5f9ae;
+  background-color: #ffffff;
 }
 
 .navbar-brand {
