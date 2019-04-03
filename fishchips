@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Fish and Chips</title>
+
+
+<div class="container-fluid"> <a name=fchips></a>
+  <h1 style="text-align:center;" id="fchips">Vegan fish and chips</h2>
+  </div>
+
+<div class="row">
+  <h2>Canvas Cafe</h2>
+  <div class="col-sm-6">
+    <p><strong>If there is one place in the world you’re guaranteed to get vegan fish and chips, it’s Shoreditch!</strong></p>
+    <h3>Ethical rating: 5/5</h3>
+    <p>The cafe itself offers an entirely vegan menu, so there’s no risk of cross contamination and diners aren’t indirectly supporting the meat and dairy industry.
+    <br>We haven’t found any information on how ethically sourced the ingredients are, but they do offer a ‘pay it forward’ service where you can buy a hot drink or a meal for those in need in the Shoreditch community.
+    <br>For an added feel-good bonus, The Canvas Cafe is attached to The Canvas, a not-for-profit social enterprise and community space aimed at tackling loneliness and social isolation.
+    <br>The owners define The Canvas as a ‘a blank canvas for positivity’ - somewhere you can support a grassroots community organisation *and* eat tofish and chips - sign us up!</p>
+    <h3>Food rating: 4/5</h3>
+    <p>The focus is definitely on the texture of the tofish (which in on point) as opposed to the flavour, but the increible tartar sauce and batter makes up for the slightly bland tofu.
+    <br>The chips are beautifully homemade, crispy, and delicious.</p>
+    <br><strong>Address:</strong> 42 Hanbury St, London E1 5JL
+    <br><strong>Phone:</strong> 020 7018 1020
+    <br> Price point: ££ </p>
+  </div>
+  <div class="col-sm-6">
+      <a href="https://imgur.com/sQkzRD0"><img src="https://i.imgur.com/sQkzRD0.jpg" class="img-rounded landing-image" title="Canvas Cafe" alt='The Canvas Cafe fish and chips' height='320' width='420'> </a>
+  </div>
+</div>
+
+<br>
+
+        <div class="row">
+          <h2>Sutton & Sons, Stoke Newington</h2>
+          <div class="col-sm-6">
+            <p><strong>C-hipsters abound in Stoke Newington!</strong></p>
+            <h3>Ethical rating: 4/5</h3>
+            <p>This branch is entirely vegan, but other branches do (understandably) serve a mix of meat and vegan options</p>
+            <h3>Food rating: 4/5</h3>
+            <p>Sutton & Sons made the bold choice to replace tofu in their tofish with banana blossom.</p>
+            <br>This was our first foray into banana blossom (as a food itself, let alone as fish replacement) but we later found out that banana blossom is actually quite popular, especially is southeast  asian cuisine.
+            <br>It’s deliciously chewy in texture and works exceptionally well in their scampi. However it is more bland than tofu (which seems like a stretch we know) so not a great choice for sauce haters.                <br>The chips are proper old school and go great with lashings of salt and vinegar.
+            <br>Other offerings include pie and mash, battered sausage, and mushy peas.</p>
+            <br><p><strong>Address</Strong>: Sutton & Sons, 111 Stoke Newington High Street, Stoke Newington, N16 0PH.</p>
+            <br><p><strong>Phone:</strong> 020 3643 2017</p>
+            <br><p><strong>Price point: ££</strong></p>
+        </div>
+
+              <div class="col-sm-6">
+                  <a href="https://imgur.com/kjjH3dJ"><img src="https://i.imgur.com/kjjH3dJ.jpg" title="Sutton & Sons" class="img-rounded landing-image" title="source: imgur.com" height='320' width='420'></a>
+
+              </div>
+            </div>
+
+<br>
+
+</html>
