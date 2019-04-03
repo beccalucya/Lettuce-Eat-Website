@@ -73,10 +73,15 @@ li {
   padding: 10px 30px;
 }
 
+
+li a:hover {
+  background-color: #111;
+}
+
 div {
   background-color: #b5f9ae;
 }
 
-li a:hover {
-  background-color: #111;
+.navbar-brand {
+  font-size: 100px;
 }
