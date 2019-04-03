@@ -1,0 +1,32 @@
+.img-rounded {
+  border-radius: 50%;
+  width:200px;
+  height:200px
+}
+
+.landing-image{
+  width:200px;
+  height:200px;
+}
+
+.row {
+margin: 70px;
+border: 1px solid #b5f9ae
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.carousel-indicators {
+  color: b5f9ae;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
