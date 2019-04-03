@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lettuce Eat! Vegan fast food directory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <style>
+
+  .jumbotron {
+    background-image: url("https://i.imgur.com/KUIJAJO.jpg");
+    background-size: cover;
+    padding: 100px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Lettuce Eat!</h1>
+  <p>For when you're too hungover to work Google</p>
+  <form class="form-inline">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Portfolio Section -->
+<div class="container-fluid text-center bg-grey">
+  <h2>Delicious!</h2>
+  <h4>What do you fancy?</h4>
+  <div class="row text-center">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="C:\Users\Victoria\Desktop\JEN\code_first_girls\lettuce_eat/images/pizza.jpg" alt="Pizza" width="400" height="300">
+        <p><strong>Vegan Pizza</strong></p>
+        <p>In pizza we crust</p>
+      </div>
+    </div>
+
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="C:\Users\Victoria\Desktop\JEN\code_first_girls\lettuce_eat/images/chicken.jpg" alt="Vegan Fried Chicken" width="400" height="300">
+        <p><strong>Vegan Fried Chicken</strong></p>
+        <p>No fowl play here</p>
+      </div>
+    </div>
+
+  <div class="col-sm-3">
+    <div class="thumbnail">
+        <a href = "#fchips"> <img src="C:\Users\Victoria\Desktop\JEN\code_first_girls\lettuce_eat/images/vegan_fish_chips_header_thumbnail.jpg" alt="Vegan Fish and Chips" width="400" height="300"> </a>
+        <p><strong>Vegan Fish and Chips</strong></p>
+        <p>Don't <i>trout</i> its fishy-ness</p>
+    </div>
+  </div>
+
+  <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="C:\Users\Victoria\Desktop\JEN\code_first_girls\lettuce_eat/images/burger_front.jpg" alt="Vegan Burgers" width="400" height="300">
+        <p><strong>Vegan Burgers</strong></p>
+        <p>You're on a roll!</p>
+      </div>
+  </div>
+ </div>
+</div>
+
+  <!-- carousel -->
+<div>
+<h2 style="text-align:center;">What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="https://imgur.com/j6Q3eFS"><img src="https://i.imgur.com/j6Q3eFS.jpg" class ="center" title="source: imgur.com" height="320" width="420"></a>
+        <h4>"I didn't even know vegan fried chicken existed before I found Lettuce Eat!"<br><span>Danny DeVito</span></h4>
+      </div>
+      <div class="item">
+        <a href="https://imgur.com/IgDpmox"><img src="https://i.imgur.com/IgDpmox.jpg" class ="center" title="source: imgur.com" height="320" width="420"></a>
+        <h4>"I used to think vegan food sucked before I tried these fast foods... <br> it's still not the same but I get to feel smug when eating it so that's a plus"<br><span>Kaitlin Olsen</span></h4>
+      </div>
+      <div class="item">
+        <a href="https://imgur.com/HyuJV8L"><img src="https://i.imgur.com/HyuJV8L.jpg" class ="center" title="source: imgur.com" height="320" width="420"></a>
+        <h4>"Guilt free chicken? Sign me up!"<br><span>Charlie Day</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== ""){
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+<div>
+<body>
+
+  <div class="container-fluid"> <a name=fchips></a>
+    <h1 style="text-align:center;" id="fchips">Vegan fish and chips</h2>
+    </div>
+
+  <div class="row">
+    <h2>Canvas Cafe</h2>
+    <div class="col-sm-6">
+      <p><strong>If there is one place in the world you’re guaranteed to get vegan fish and chips, it’s Shoreditch!</strong></p>
+      <h3>Ethical rating: 5/5</h3>
+      <p>The cafe itself offers an entirely vegan menu, so there’s no risk of cross contamination and diners aren’t indirectly supporting the meat and dairy industry.
+      <br>We haven’t found any information on how ethically sourced the ingredients are, but they do offer a ‘pay it forward’ service where you can buy a hot drink or a meal for those in need in the Shoreditch community.
+      <br>For an added feel-good bonus, The Canvas Cafe is attached to The Canvas, a not-for-profit social enterprise and community space aimed at tackling loneliness and social isolation.
+      <br>The owners define The Canvas as a ‘a blank canvas for positivity’ - somewhere you can support a grassroots community organisation *and* eat tofish and chips - sign us up!</p>
+      <h3>Food rating: 4/5</h3>
+      <p>The focus is definitely on the texture of the tofish (which in on point) as opposed to the flavour, but the increible tartar sauce and batter makes up for the slightly bland tofu.
+      <br>The chips are beautifully homemade, crispy, and delicious.</p>
+      <br><strong>Address:</strong> 42 Hanbury St, London E1 5JL
+      <br><strong>Phone:</strong> 020 7018 1020
+      <br> Price point: ££ </p>
+    </div>
+    <div class="col-sm-6">
+        <a href="https://imgur.com/sQkzRD0"><img src="https://i.imgur.com/sQkzRD0.jpg" class="img-rounded landing-image" title="Canvas Cafe" alt='The Canvas Cafe fish and chips' height='320' width='420'> </a>
+    </div>
+  </div>
+
+<br>
+
+          <div class="row">
+            <h2>Sutton & Sons, Stoke Newington</h2>
+            <div class="col-sm-6">
+              <p><strong>C-hipsters abound in Stoke Newington!</strong></p>
+              <h3>Ethical rating: 4/5</h3>
+              <p>This branch is entirely vegan, but other branches do (understandably) serve a mix of meat and vegan options</p>
+              <h3>Food rating: 4/5</h3>
+              <p>Sutton & Sons made the bold choice to replace tofu in their tofish with banana blossom.</p>
+              <br>This was our first foray into banana blossom (as a food itself, let alone as fish replacement) but we later found out that banana blossom is actually quite popular, especially is southeast  asian cuisine.
+              <br>It’s deliciously chewy in texture and works exceptionally well in their scampi. However it is more bland than tofu (which seems like a stretch we know) so not a great choice for sauce haters.                <br>The chips are proper old school and go great with lashings of salt and vinegar.
+              <br>Other offerings include pie and mash, battered sausage, and mushy peas.</p>
+              <br><p><strong>Address</Strong>: Sutton & Sons, 111 Stoke Newington High Street, Stoke Newington, N16 0PH.</p>
+              <br><p><strong>Phone:</strong> 020 3643 2017</p>
+              <br><p><strong>Price point: ££</strong></p>
+          </div>
+
+                <div class="col-sm-6">
+                    <a href="https://imgur.com/kjjH3dJ"><img src="https://i.imgur.com/kjjH3dJ.jpg" title="Sutton & Sons" class="img-rounded landing-image" title="source: imgur.com" height='320' width='420'></a>
+
+                </div>
+              </div>
+
+<br>
+</body>
+
+</html>
